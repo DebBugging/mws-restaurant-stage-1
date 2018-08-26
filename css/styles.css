@@ -54,7 +54,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
-  justify-content: center;
   padding: 3%;
   background-color: #252831;
   text-align:center;
@@ -200,37 +199,28 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-.inside header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+.inside #maincontent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row-reverse;
 }
 .inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: 87%;
   position: fixed;
-  right: 0;
-  top: 80px;
-  width: 50%;
+  top: 10%;
 }
-.inside #map {
-  background-color: #ccc;
-  height: 100%;
-  width: 100%;
+.subcontent {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
 }
-.inside #footer {
-  bottom: 0;
-  position: absolute;
-  width: 50%;
-}
+
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
   letter-spacing: 0;
-  margin: 15px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -275,7 +265,7 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;

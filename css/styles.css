@@ -201,12 +201,13 @@ nav h1 a {
 .inside #maincontent {
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
   justify-content: center;
   background-image: linear-gradient(100deg, #252831, #d9d9d9);
+  margin: auto;
 }
 
 #restaurant-name {
+  background-image: linear-gradient(100deg, #252831, #d9d9d9);
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 30pt;
@@ -215,14 +216,31 @@ nav h1 a {
   text-transform: uppercase;
   line-height: 1.1;
   margin: 2% 4%;
-  width: 90%;
+  padding: 20px;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.inside #map-container {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
 }
 
 #restaurant-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 70%;
   padding: 1%;
+  margin: auto;
 }
 .restaurant-details {
   width: 45%;
@@ -238,14 +256,6 @@ nav h1 a {
 #restaurant-address {
   font-size: 1.5rem;
   margin: 10px 0;
-}
-
-.inside #map-container {
-  width: 90%;
-  height: 300px;
-  border-bottom: 20px solid #252831;
-  margin: 2%;
-  overflow: hidden;
 }
 
 #restaurant-hours {

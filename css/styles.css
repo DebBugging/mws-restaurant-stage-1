@@ -13,7 +13,7 @@ body,td,th,p{
 	line-height: 1.5;
 }
 body {
-	background-image: linear-gradient(100deg, #252831, #868f96, #596164);
+	background-color: #fdfdfd;
 	margin: 0;
   position:relative;
   background-image: linear-gradient(100deg, #252831, #868f96, #596164);
@@ -74,7 +74,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: 100%;
+    width: calc(50% - 80px);
 }
 
 /* Display list items side by side */
@@ -185,8 +185,8 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: #ffa500;
-  border-bottom: 3px solid #eeeeee;
+  background-color: orange;
+  border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
   font-size: 10pt;
@@ -201,13 +201,12 @@ nav h1 a {
 .inside #maincontent {
   display: flex;
   flex-wrap: wrap;
+  align-content: stretch;
   justify-content: center;
 }
 
 #restaurant-name {
-  background-image: linear-gradient(100deg, #252831, #596164);
   color: #f18200;
-  box-shadow: 5px 3px 5px #252831;
   font-family: Arial,sans-serif;
   font-size: 30pt;
   font-weight: 500;
@@ -382,17 +381,5 @@ nav h1 a {
 @media only screen and (max-width: 500px){
   #breadcrumb {
     width: 100%;
-  }
-}
-
-@media only screen and (max-width: 700px){
-  #restaurant-img {
-    width: 300px;
-    height: 300px;
-    margin: auto;
-  }
-
-  #reviews-container {
-    width: 97%;
   }
 }

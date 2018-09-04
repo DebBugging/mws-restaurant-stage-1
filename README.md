@@ -3,11 +3,11 @@
 
 ## Project Overview
 
-For the this project, I converted a static restaurant reviews webpage to a mobile-ready web application. This was a static design that lacked accessibility and responsiveness. I used Flexbox to make it viewable across all viewports and added more feature such as ARIA labels for Accessibility. I also included Service Worker to cache content for offline use.
+For this project, I converted a static restaurant reviews webpage to a mobile-ready web application. This was a static design that lacked accessibility and responsiveness. I used Flexbox to make it viewable across all viewports and added more features such as ARIA labels for Accessibility. I also included Service Worker to cache content for offline use.
 
 ### Specification
 
-The stater code was provided by Udacity. The code had a lot of issues. It was barely usable on a desktop browser, much less a mobile device. It also didn't include any standard accessibility features, and it didn't work offline at all.
+The stater code was provided by Udacity. The code had a lot of issues. It was barely usable on a desktop browser, much less a mobile device. It also didn't include any standard accessibility features and it didn't work offline at all.
 
 The Udacity [rubric](https://review.udacity.com/#!/rubrics/1090/view) has a list of all the minimium requirements to complete the project.
 

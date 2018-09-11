@@ -13,6 +13,10 @@ The Udacity [rubric](https://review.udacity.com/#!/rubrics/1090/view) has a list
 
 ### Instructions
 
+To visit website: http://restaurantreviewapp.surge.sh/
+
+Or to use locally:
+
 1. Clone or download the Repository.
 
 2. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (All Windows users do this). For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software. Python is free to use.
